@@ -10,9 +10,10 @@
 </head>
 
 <body>
-  <header>
+  <header class="text-center">
     <h1>Your Name</h1>
-    <img src="profile_photo.jpg" alt="Profile Photo">
+    <img src="profile_photo.jpg" alt="Profile Photo"
+      class="img-fluid rounded-circle" style="max-width: 200px;">
   </header>
 
   <section id="personal-info">
@@ -36,12 +37,12 @@
 
   <section id="working-experiences">
     <h2>Working Experiences</h2>
-    <ul>
-      <li>
-        <h3>Job Title</h3>
-        <p>Company Name</p>
-        <p>Date Range</p>
-        <p>Description of responsibilities and accomplishments.</p>
+    <ul class="list-group">
+      <li class="list-group-item">
+        <h3 class="fw-bold">Job Title</h3>
+        <p class="mb-1">Company Name</p>
+        <p class="mb-1">Date Range</p>
+        <p class="mb-0">Description of responsibilities and accomplishments.</p>
       </li>
       <!-- Repeat the above li block for each working experience -->
     </ul>
@@ -49,11 +50,11 @@
 
   <section id="academic-accomplishments">
     <h2>Academic Accomplishments</h2>
-    <ul>
-      <li>
-        <h3>Degree/Certification</h3>
-        <p>Institution Name</p>
-        <p>Year of Completion</p>
+    <ul class="list-group">
+      <li class="list-group-item">
+        <h3 class="fw-bold">Degree/Certification</h3>
+        <p class="mb-1">Institution Name</p>
+        <p class="mb-1">Year of Completion</p>
       </li>
       <!-- Repeat the above li block for each academic accomplishment -->
     </ul>
@@ -61,11 +62,11 @@
 
   <section id="specialization-courses">
     <h2>Specialization Courses</h2>
-    <ul>
-      <li>
-        <h3>Course Name</h3>
-        <p>Platform/Institution Name</p>
-        <p>Year of Completion</p>
+    <ul class="list-group">
+      <li class="list-group-item">
+        <h3 class="fw-bold">Course Name</h3>
+        <p class="mb-1">Platform/Institution Name</p>
+        <p class="mb-1">Year of Completion</p>
       </li>
       <!-- Repeat the above li block for each specialization course -->
     </ul>
@@ -73,30 +74,35 @@
 
   <section id="languages">
     <h2>Languages</h2>
-    <ul>
-      <li>Language 1 - Proficiency Level</li>
-      <li>Language 2 - Proficiency Level</li>
-      <!-- Repeat 
-```
-      <li>Skill 1</li>
-      <li>Skill 2</li>
+    <ul class="list-group">
+      <li class="list-group-item">Language 1 - Proficiency Level</li>
+      <li class="list-group-item">Language 2 - Proficiency Level</li>
+      <!-- Repeat the above li block for each language -->
+    </ul>
+  </section>
+
+  <section id="hard-skills">
+    <h2>Hard Skills</h2>
+    <ul class="list-group">
+      <li ``` class="list-group-item">Skill 1</li>
+      <li class="list-group-item">Skill 2</li>
       <!-- Repeat the above li block for each hard skill -->
     </ul>
   </section>
 
   <section id="soft-skills">
     <h2>Soft Skills</h2>
-    <ul>
-      <li>Skill 1</li>
-      <li>Skill 2</li>
+    <ul class="list-group">
+      <li class="list-group-item">Skill 1</li>
+      <li class="list-group-item">Skill 2</li>
       <!-- Repeat the above li block for each soft skill -->
     </ul>
   </section>
 
-  <footer>
+  <footer class="text-center mt-5">
     <p>&copy; 2023 Your Name. All rights reserved.</p>
-
   </footer>
+
 </body>
 
 </html>
