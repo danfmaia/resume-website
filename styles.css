@@ -1,0 +1,120 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Section Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#personal-info,
+#professional-goal,
+#summary {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#working-experiences,
+#academic-accomplishments,
+#specialization-courses,
+#languages,
+#hard-skills,
+#soft-skills {
+  padding: 20px;
+}
+
+#working-experiences li,
+#academic-accomplishments li,
+#specialization-courses li,
+#languages li,
+#hard-skills li,
+#soft-skills li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style 3 Specific Styles */
+#personal-info h2,
+#professional-goal h2,
+#summary h2,
+#working-experiences h2,
+#academic-accomplishments h2,
+#specialization-courses h2,
+#languages h2,
+#hard-skills h2,
+#soft-skills h2 {
+  font-weight: bold;
+  color: #333;
+}
+
+#working-experiences li div,
+#academic-accomplishments li div,
+#specialization-courses li div {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#working-experiences li div h3,
+#academic-accomplishments li div h3,
+#specialization-courses li div h3 {
+  margin: 0;
+}
+
+#working-experiences li p,
+#academic-accomplishments li p,
+#specialization-courses li p {
+  margin-bottom: 5px;
+}
+
+/* Color Palette 3 Specific Styles */
+header {
+  background-color: #2980b9;
+}
+
+#professional-goal,
+#languages,
+#hard-skills {
+  background-color: #f1c40f;
+}
+
+#summary,
+#soft-skills {
+  background-color: #c0392b;
+}
+
+footer {
+  background-color: #34495e;
+}
